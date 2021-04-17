@@ -1,0 +1,1 @@
+setenv.cmd && cargo espflash --release --chip esp8266 --features="xtensa-lx-rt/lx106 xtensa-lx/lx106 esp8266-hal" COM3
